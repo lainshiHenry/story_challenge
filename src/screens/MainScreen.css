@@ -1,0 +1,7 @@
+.MainScreen{
+    max-width: 500px;
+    width: 100vw;
+    max-height: 1000px;
+    height: 100vh;
+    background-color: aqua;
+}
