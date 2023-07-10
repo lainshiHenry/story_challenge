@@ -4,4 +4,11 @@
     max-height: 1000px;
     height: 100vh;
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.textField{
+    
 }
