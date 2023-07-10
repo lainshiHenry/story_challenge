@@ -2,11 +2,12 @@ import React from 'react'
 
 export interface TextReadOnlyProps{
     text: string,
+    textClassList?: string,
 }
 
-const TextReadOnly = ({text}: TextReadOnlyProps) => {
+const TextReadOnly = ({text, textClassList}: TextReadOnlyProps) => {
   return (
-    <div>TextReadOnly</div>
+    <span className={textClassList}>{text}</span>
   )
 }
 
